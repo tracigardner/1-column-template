@@ -30,14 +30,10 @@
     width: 100%;
   }
 
-  /* Change the background color     */
-  /* of the right menu column below. */
+  /* Change the background color   */
+  /* of the menu bar column below. */
   nav {
-    padding-bottom: 10010px;
-    margin-bottom: -10000px;
-    float: left;
-    width: 230px;
-    margin-left: -230px;
+    padding-left: 15px;
     background: #eee;
   }
 
@@ -52,10 +48,6 @@
 
   #wrapper {
     overflow: hidden;
-  }
-
-  #content {
-    margin-right: 230px; /* Same as 'nav' width */
   }
 
   .innertube {
@@ -88,10 +80,34 @@
 .site-footer{
     text-align: center;
   }
-.site-menu h3 {
-  color: #000;
+
+.site-menu {
+text-align: center;
+margin: 0px 0 0 ;
+padding: 10px 0;
 }
+
+.site-menu ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+
+.site-menu li {
+   display: inline-block;
+   padding: 0px 10px;
+}
+
 .site-menu a {
-    color: darkgreen;
-    text-decoration: underline;
-  }
+  font-weight: normal;
+  padding: 0px 5px;
+  font-size: 18px;
+  color: black;
+  text-decoration: underline;
+}
+
+.site-menu a:hover {
+  background-color: darkgray;
+  color: black;
+  text-decoration: none;
+}
