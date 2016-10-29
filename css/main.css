@@ -72,11 +72,13 @@
 
   /* Additions to support the external */
   /* iframe files */
+
 .site-header {
     margin: 0;
     padding-top: 15px;
     font-family: Sans-Serif;
   }
+
 .site-footer{
     text-align: center;
   }
@@ -106,6 +108,8 @@ padding: 10px 0;
   text-decoration: underline;
 }
 
+/* Change the highlight     */
+/* color of the menu below */
 .site-menu a:hover {
   background-color: darkgray;
   color: black;
