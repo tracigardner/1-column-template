@@ -12,10 +12,13 @@
   /* of the header below, or add a  */
   /* link to a background image     */
   /* and remove the comment code.   */
+  /* Background image should be     */
+  /* 100px by 100px tile.           */
   header {
-    background: #ccc;
+    background: darkgray;
     height: 100px;
-    /* background-image: url("put-link-to-image-here"); the quotation marks are required */
+    /* background-image: url("../images/name-of-your-file-here");
+    background-repeat: repeat-x; */
   }
 
   header h1 {
@@ -77,6 +80,7 @@
     margin: 0;
     padding-top: 15px;
     font-family: Sans-Serif;
+    color: black;
   }
 
 .site-footer{
@@ -105,13 +109,10 @@ padding: 10px 0;
   padding: 0px 5px;
   font-size: 18px;
   color: black;
-  text-decoration: underline;
 }
 
-/* Change the highlight     */
+/* Change the mouseover    */
 /* color of the menu below */
 .site-menu a:hover {
-  background-color: darkgray;
-  color: black;
-  text-decoration: none;
+  color: orange;
 }
